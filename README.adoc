@@ -1,0 +1,68 @@
+# Manage-Cookies-Javascript
+
+A simple project which shows you how to manage (set, read) cookies by using Javascript
+
+https://howchoo.com/javascript/how-to-manage-cookies-in-javascript[Click here to view the source!]
+
+'''
+
+## Features:
+
+#### 1. `Set` a cookie:
+
+```javascript
+function setCookie(name, value, exdays) {
+    var d, expires;
+    exdays = exdays || 1;
+    d = new Date();
+    d.setTime(d.getTime() + (exdays2460601000));
+    expires = "expires=" + d.toUTCString();
+    document.cookie = name + "=" + value + "; " + expires;
+}
+```
+#### Usage:
+
+```javascript
+setCookie('name', 'Batman', 365);
+```
+
+'''
+
+
+#### 2. `Read` a cookie:
+
+```javascript
+function getCookie(name) {
+    var cookie, c;
+    cookies = document.cookie.split(';');
+    for (var i=0; i < cookies.length; i++) {
+        c = cookies[i].split('=');
+        if (c[0] == name) {
+            return c[1];
+        }
+    }
+    return "";
+}
+```
+
+#### Usage: 
+
+```javascript
+getCookie(name);
+```
+
+'''
+
+#### 3. `Delete` a cookie:
+
+```javascript
+setCookie('name', '', -1);
+```
+
+IMPORTANT: You can easily delete a cookie by settings its duration to `-1`!
+
+'''
+
+# Disclaimer:
+
+I do not own this code. The code was first shown in https://howchoo.com/javascript/how-to-manage-cookies-in-javascript[this article]. I did only want to give it some attention by adding it on github!
