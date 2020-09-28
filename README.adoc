@@ -4,6 +4,14 @@ A simple project which shows you how to manage (set, read) cookies by using Java
 
 https://howchoo.com/javascript/how-to-manage-cookies-in-javascript[Click here to view the source!]
 
+### Usage:
+
+Add the following code snippet to your project and call the methods as explained below!
+
+```html
+<script src="https://raw.githubusercontent.com/MarcoSteinke/Manage-Cookies-Javascript/master/CookieManager.js">
+```
+
 '''
 
 ## Features:
