@@ -65,4 +65,4 @@ IMPORTANT: You can easily delete a cookie by settings its duration to `-1`!
 
 # Disclaimer:
 
-I do not own this code. The code was first shown in https://howchoo.com/javascript/how-to-manage-cookies-in-javascript[this article]. I did only want to give it some attention by adding it on github!
+I do not own this code. The code was first shown in https://howchoo.com/javascript/how-to-manage-cookies-in-javascript[this article]. I did only want to give it some attention by adding it to github!
