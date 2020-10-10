@@ -64,7 +64,7 @@ getCookie(name);
 #### 3. `Delete` a cookie:
 
 ```javascript
-setCookie('name', '', -1);
+deleteCookie(name);
 ```
 
 IMPORTANT: You can easily delete a cookie by settings its duration to `-1`!
