@@ -1,7 +1,5 @@
 // This code belongs to: https://howchoo.com/javascript/how-to-manage-cookies-in-javascript
 
-// Info: To delete a cookie, just use a call such as setCookie(name, value, -1) ! 
-// By setting the exdays to -1 your cookie will be removed.
 function setCookie(name, value, exdays) {
     var d, expires;
     exdays = exdays || 1;
@@ -21,4 +19,10 @@ function getCookie(name) {
         }
     }
     return "";
+}
+
+// Info: To delete a cookie, just use a call such as setCookie(name, value, -1) ! 
+// By setting the exdays to -1 your cookie will be removed.
+function deleteCookie(name) {
+    setCookie(name, "", -1);
 }
