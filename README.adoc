@@ -9,7 +9,7 @@ https://howchoo.com/javascript/how-to-manage-cookies-in-javascript[Click here to
 Add the following code snippet to your project and call the methods as explained below!
 
 ```html
-<script src="https://raw.githubusercontent.com/MarcoSteinke/Manage-Cookies-Javascript/master/CookieManager.js">
+<script src="https://raw.githubusercontent.com/MarcoSteinke/Manage-Cookies-Javascript/master/CookieManager.js"></script>
 ```
 
 '''
