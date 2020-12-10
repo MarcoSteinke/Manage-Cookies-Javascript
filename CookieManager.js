@@ -13,6 +13,10 @@ function objectToJSON(object) {
     if(object) return JSON.stringify(object);
 }
 
+function parseJSON(json) {
+    if(json) return JSON.parse(json);
+}
+
 function getCookie(name) {
     if (document.cookie.length > 0) {
         c_start = document.cookie.indexOf(name + "=");
