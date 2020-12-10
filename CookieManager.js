@@ -9,6 +9,10 @@ function setCookie(name, value, exdays) {
     document.cookie = name + "=" + value + "; " + expires;
 }
 
+function objectToJSON(object) {
+    if(object) return JSON.stringify(object);
+}
+
 function getCookie(name) {
     if (document.cookie.length > 0) {
         c_start = document.cookie.indexOf(name + "=");
